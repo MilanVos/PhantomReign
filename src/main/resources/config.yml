@@ -1,0 +1,41 @@
+# Phantom Reign Configuration
+
+# General Settings
+settings:
+  # Time in seconds before a phantom can be summoned after death
+  phantom-summon-cooldown: 5
+
+  # Maximum number of phantoms a player can have
+  max-phantoms-per-player: 10
+
+  # Whether phantoms should be visible to all players
+  phantoms-visible-to-all: true
+
+# Phantom Classes
+phantom-classes:
+  shadowstalker:
+    name: "Shadowstalker"
+    description: "Stealthy phantom that excels at ambushing enemies"
+    abilities:
+      - "invisibility"
+      - "speed"
+    damage: 3
+    health: 10
+
+  soul-eater:
+    name: "Soul Eater"
+    description: "Drains life from enemies to heal its master"
+    abilities:
+      - "life-steal"
+      - "slow"
+    damage: 4
+    health: 15
+
+  blood-moon-lord:
+    name: "Blood Moon Lord"
+    description: "Powerful phantom that commands lesser spirits"
+    abilities:
+      - "summon-minions"
+      - "strength"
+    damage: 6
+    health: 25

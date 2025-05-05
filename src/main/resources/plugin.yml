@@ -1,6 +1,10 @@
 name: PhantomReign
 version: '1.0'
 main: nl.multitime.phantomReign.PhantomReign
-api-version: '1.19'
-authors: [ MultiDevelopment ]
-description: Minecraft Client Made by Multtime himself
+api-version: '1.16'
+description: Build your army of shadows!
+commands:
+  phantom:
+    description: Main command for Phantom Reign
+    usage: /phantom <status|attack|defend|follow|help>
+    aliases: [ph]
